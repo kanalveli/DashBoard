@@ -1,0 +1,57 @@
+body{
+    padding-top: 60px;
+}
+.coverinfo{
+	background: url("hpbg.jpg");
+	background-size: cover;
+	height:450px;
+}
+ul.nav li.dropdown:hover{
+	cursor: pointer;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.nav .dropdown-menu {
+    margin-top: 0;
+}
+
+.badge{
+	background: green;
+}
+
+.chatbox{
+	float:right;
+	height:80%;
+	
+
+}
+.msgcontainer{
+	background-color:rgba(119,136,153,0.1);
+	height:95%;
+	overflow:scroll;
+	margin:auto;
+}
+.msgin{
+	font: 15px cursive;
+	font-weight: 500;
+	word-wrap:break-word;
+	background: lightblue;
+	border-radius: 10px;
+	text-align: center;
+	float:left;
+	width:60%;
+	
+}
+.msg{
+	font: 15px cursive;
+	font-weight: 500;
+	word-wrap:break-word;
+	background: lightgreen;
+	border-radius: 10px;
+	text-align: center;
+	float:right;
+	width:60%;
+	
+}
